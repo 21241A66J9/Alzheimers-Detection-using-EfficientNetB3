@@ -14,8 +14,7 @@ The system is designed to be **lightweight, accurate, and scalable**, making it 
 ## 📦 Dataset
 The dataset used in this project is curated and preprocessed via **Roboflow**, based on MRI scans from the **OASIS** dataset.
 
-🔗 **Download Dataset**:  
-[Roboflow Alzheimer’s Dataset](https://app.roboflow.com/traffic-violation-2hmbm/alzheimers-dataset-oasis/models)
+🔗 **[Download Dataset via Roboflow](https://app.roboflow.com/traffic-violation-2hmbm/alzheimers-dataset-oasis/models)**
 
 ---
 
@@ -39,17 +38,30 @@ The dataset used in this project is curated and preprocessed via **Roboflow**, b
 ---
 
 ## 📊 Results
-- Training Accuracy: 93.5%
-- Validation Accuracy: 92.4%
-- Test Accuracy: 100%
-- Test Loss: 0.0045
+- **Training Accuracy:** 93.5%
+- **Validation Accuracy:** 92.4%
+- **Test Accuracy:** 100%
+- **Test Loss:** 0.0045
 
 The model provides high-confidence predictions and generalizes well across all Alzheimer’s stages.
 
 ---
 
+## 📥 Downloads
+You can access the trained model and full project documentation using the link below:
+
+🔗 **[Download best.keras and Project Report (PDF)](https://drive.google.com/drive/folders/1MCqUzqOZIpTnTMEyu0sNJcKWUzfMiGkB?usp=sharing)**
+
+**Contents:**
+- ✅ `best.keras`: Pretrained model file  
+- 📄 `Major Project - Alzheimer's.pdf`: Detailed documentation
+
+> Please download these files and place `best.keras` in your project root directory before running inference.
+
+---
+
 ## 📁 Requirements
-See `requirements.txt` below:
+To install all required dependencies, use:
 
 ```txt
 tensorflow
@@ -63,5 +75,5 @@ opencv-python
 ---
 
 ## 📬 Contact
-For questions or contributions, please reach out via GitHub or email.
-manjunath.varala@gmail.com
+For questions or contributions, please reach out via GitHub or email:  
+📧 **manjunath.varala@gmail.com**
