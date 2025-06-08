@@ -1,3 +1,5 @@
+#Interface for the project
+
 import tkinter as tk
 from tkinter import filedialog, ttk
 from PIL import Image, ImageTk
@@ -9,7 +11,7 @@ import tensorflow as tf
 
 
 # Load model
-model = tf.keras.models.load_model('C:/Users/manju/OneDrive/Desktop/al/best.keras')
+model = tf.keras.models.load_model('C:/Users/21241a66j9/OneDrive/Desktop/al/best.keras')
 
 # Class labels and descriptions
 class_info = {
